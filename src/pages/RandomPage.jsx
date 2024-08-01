@@ -6,7 +6,6 @@ const RandomPage = () => {
   const [content, setContent] = useState([]);
   const [inputId, setInputId] = useState();
   const [matchedData, setMatchedData] = useState(null);
-  const [matchedData, setMatchedData] = useState(null); 
   const data = 'https://script.googleusercontent.com/macros/echo?user_content_key=x6puj0loFhFGGPsNHWFGKiapXYnJlDu3z2sWWN8t96UQnrXAEFJoV52FDojNkstlgeHbkk3fRpPH6UFenmQUsFWWwFlyQ3unm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnLnYrbepk56WCEf2dpDEhqSEC7KH5wqkKYHbHqY2a0-NNTP6a8326m-iR3TmVmGeLBoyQmo2h4t0HfgjQ-feo92fsPYm7PZuuNz9Jw9Md8uu&lib=MI4iJVG1pi4aooeeEN1zRfWDRu-MpyHbQ'
   useEffect(() => {
     const getData = async () => {
