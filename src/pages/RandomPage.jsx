@@ -18,7 +18,6 @@ const RandomPage = () => {
     };
     getData();
   }, []);
-  console.log(content)
   const handleSubmit = (e) => {
     e.preventDefault();
     const foundData = content.find(
