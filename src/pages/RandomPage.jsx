@@ -26,7 +26,7 @@ const RandomPage = () => {
     if (foundData) {
       setMatchedData(foundData);
       Swal.fire({
-        title: matchedData.คำใบ้[2].ข้อความ,
+        title: matchedData.คำใบ้[3].ข้อความ,
         showClass: {
           popup: `
             animate__animated
